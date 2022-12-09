@@ -38,7 +38,7 @@ void PrintArray(int[,] array){
 
 void PrintChislo(int[,] array,int a, int b){
     int m = array.GetLength(0);
-    int n = array.GetLength(1);
+    int m = array.GetLength(1);
     if (a < m && b < n){
         Console.WriteLine($"i = {a}; j = {b} -> {array[a,b]}");
     }
